@@ -4,7 +4,7 @@ config.py
 #Adding Additional Files
 movies_challenge.py
 Movies_JSON.ipynb
-Challenge.ipynb
+challenge.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

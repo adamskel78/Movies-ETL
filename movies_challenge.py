@@ -27,8 +27,6 @@ ratings = pd.read_csv(f'{file_dir}/ratings.csv')
 ## Remove TV Shows !
 wiki_movies_df = pd.DataFrame(wiki_movies_raw)
 
-
-
 wiki_movies = [movie for movie in wiki_movies_raw
                if ('Director' in movie or 'Directed by' in movie)
                    and 'imdb_link' in movie
